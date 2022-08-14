@@ -29,6 +29,7 @@ body {
     background-color: var(--Very-dark-blue-card-BG);
     border-radius: 1rem;
     margin-bottom: 6.2rem;
+    margin-top: 14rem;
     transition: box-shadow 0.5s, transform 0.5s;
 }
 .container:hover{
@@ -43,7 +44,8 @@ body {
 .container__img{
     background-image: url(/images/image-equilibrium.jpg);
     background-size: cover;
-    width: 28rem;
+    background-position: center;
+    max-width: 28rem;
     height: 28rem;
     border-radius: 1rem;
     overflow: hidden;
@@ -61,6 +63,7 @@ body {
     background-repeat: no-repeat;
     background-color: var(--Cyan-eye); 
     background-position: center;
+    cursor: pointer;
     
 }
 
@@ -148,6 +151,6 @@ body {
 
 @media screen and (min-width: 768px) {
     .container{
-        margin-top: 15.3rem;
+        
     }
 }
